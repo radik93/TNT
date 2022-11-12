@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Страница администратора</title>
+    <link href="/css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<p>Добавить секущую комбинацию</p>
+    <form method="POST" enctype="multipart/form-data" action="/mtg/upload">
+    <input type="Long" name="secantСombinationNum" id="secantСombinationNum" placeholder="Номер секущей комбинации"/><br>
+    <input type="String" name="dpName" id="dpName" placeholder="DPE задвижки"/><br>
+    <br /> <input type="submit" value="Upload"> Загрузить в БД
+    </form>
+</body>
+</html>
